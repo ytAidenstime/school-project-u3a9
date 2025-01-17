@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Yatra+One&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+ background: #191C3A;
+}
+
+.card-wrapper {
+  width: 40%;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(9,15,125,1) 37%, rgba(0,212,255,1) 100%);
+  padding: 4px;
+  border-radius: 7px;
+}
+
+.card {
+  background: #1E2249;
+  border-radius: 7px;
+  color: white;
+  padding: 10px;
+}
+
+.card h1 {
+    font-family: "Jersey 15", serif;
+    text-align: center;
+}
+
+.card > h2 {
+  color: #A6A6A7;
+  font-family: "Yatra One", serif;
+}
+
+.card .section-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.card .section-wrapper h2 {
+  font-family: sans-serif;
+}
+
+.card .section-wrapper div {
+  background: #191D3E;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card .section-wrapper div p {
+  font-size: 25px;
+  font-family: "Jersey 15", serif;
+}
+
+.card .section-wrapper div img {
+  width: 25rem;
+  margin-left: auto;
+  margin-right: auto;
+}
