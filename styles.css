@@ -40,6 +40,7 @@ body {
 .card .section-wrapper {
   display: flex;
   flex-direction: column;
+  gap: 10px;
 }
 
 .card .section-wrapper h2 {
